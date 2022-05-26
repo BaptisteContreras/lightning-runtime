@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Runtime\Lightning;
+namespace Sflightning\Runtime;
 
 /**
  * @author Baptiste CONTRERAS <https://github.com/BaptisteContreras>

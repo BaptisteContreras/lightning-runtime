@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Runtime\Lightning;
+namespace Sflightning\Runtime;
 
 use Swoole\Http\Request;
 use Swoole\Http\Response;
@@ -50,7 +50,7 @@ class LightningApplication
         if (!$this->booted) {
             throw new ApplicationNotBootedException();
         }
-        
+
         $this->server->start();
     }
 

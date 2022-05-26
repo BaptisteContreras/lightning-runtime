@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Runtime\Lightning;
+namespace Sflightning\Runtime;
 
 
 use Symfony\Component\HttpKernel\HttpKernelInterface;

@@ -26,12 +26,12 @@
   "prefer-stable": true,
   "autoload": {
     "psr-4": {
-      "Runtime\\Lightning\\": "src/"
+      "Sflightning\\Runtime\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Runtime\\Lightning\\Tests\\": "tests/"
+      "Sflightning\\Runtime\\Test\\": "tests/"
     }
   }
 }
