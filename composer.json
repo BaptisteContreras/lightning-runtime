@@ -26,7 +26,7 @@
   "prefer-stable": true,
   "autoload": {
     "psr-4": {
-      "Sflightning\\Runtime\\": "src/Runtime"
+      "Sflightning\\Runtime\\": "Runtime/src"
     }
   },
   "autoload-dev": {
