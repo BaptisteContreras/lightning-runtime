@@ -17,7 +17,7 @@ If you are new to the Symfony Runtime component, read more in the [main readme](
 Define the environment variable `APP_RUNTIME` for your application.
 
 ```
-APP_RUNTIME=Runtime\Lightning\Runtime
+APP_RUNTIME=Sflightning\Runtime
 ```
 
 ### Symfony
