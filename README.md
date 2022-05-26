@@ -1,6 +1,6 @@
 # Lightning Runtime
 
-A runtime for [Swoole](https://www.swoole.co.uk/) for [Symfony](https://symfony.com/) applications based on the [Php Swoole Runtime](https://github.com/php-runtime/swoole).
+A runtime for [Symfony](https://symfony.com/) applications using [Swoole](https://www.swoole.co.uk/). Based on the [Php Swoole Runtime](https://github.com/php-runtime/swoole).
 
 If you are new to the Symfony Runtime component, read more in the [main readme](https://github.com/php-runtime/runtime).
 
