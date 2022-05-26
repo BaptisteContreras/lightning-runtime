@@ -10,7 +10,7 @@ use Symfony\Component\Runtime\SymfonyRuntime;
 /**
  * @author Baptiste CONTRERAS <https://github.com/BaptisteContreras>
  */
-class Runtime extends SymfonyRuntime
+class LightningRuntime extends SymfonyRuntime
 {
 
     /**         Properties         **/
