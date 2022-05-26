@@ -9,7 +9,7 @@ If you are new to the Symfony Runtime component, read more in the [main readme](
 ## Installation
 
 ```
- composer require lightning/runtime
+ composer require sflightning/runtime
 ```
 
 ## Usage

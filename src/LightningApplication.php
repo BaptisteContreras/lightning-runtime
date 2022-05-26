@@ -20,14 +20,18 @@ class LightningApplication
     /** @var Server */
     private $server;
 
-    /** @var ?HttpKernelInterface */
+    /** @var HttpKernelInterface */
     private $application;
+
+    /** @var bool */
+    private $booted;
 
 
     /**         Constructor         **/
 
     public function __construct(Server $server) {
         $this->server = $server;
+        $this->booted = false;
     }
 
     /**         Methods         **/
@@ -37,10 +41,16 @@ class LightningApplication
         $this->application = $applicationKernel;
 
         $this->server->on('request', [$this, 'handleHttpRequest']);
+
+        $this->booted = true;
     }
 
     public function start(): void
     {
+        if (!$this->booted) {
+            throw new ApplicationNotBootedException();
+        }
+        
         $this->server->start();
     }
 
