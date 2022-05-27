@@ -56,7 +56,7 @@ class LightningApplication
         $this->server->start();
     }
 
-    private function handleHttpRequest(Request $request, Response  $response): void
+    public function handleHttpRequest(Request $request, Response  $response): void
     {
         $sfRequest = SymfonyHttpBridge::convertSwooleRequest($request);
 
