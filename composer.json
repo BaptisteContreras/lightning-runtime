@@ -10,7 +10,9 @@
     }
   ],
   "require": {
-    "symfony/runtime": "^5.3 || ^6.0"
+    "php": ">=7.3",
+    "symfony/runtime": "^5.3 || ^6.0",
+    "sflightning/contracts": "dev-main"
   },
   "require-dev": {
     "illuminate/http": "^8.48",
