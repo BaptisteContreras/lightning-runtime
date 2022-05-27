@@ -1,9 +1,10 @@
 <?php
 
 
-namespace Sflightning\Runtime;
+namespace Sflightning\Runtime\Internal;
 
 
+use Sflightning\Runtime\LightningApplication;
 use Symfony\Component\HttpKernel\HttpKernelInterface;
 use Symfony\Component\Runtime\RunnerInterface;
 

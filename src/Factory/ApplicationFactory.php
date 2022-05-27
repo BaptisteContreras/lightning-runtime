@@ -1,6 +1,8 @@
 <?php
 
-namespace Sflightning\Runtime;
+namespace Sflightning\Runtime\Factory;
+
+use Sflightning\Runtime\LightningApplication;
 
 /**
  * @author Baptiste CONTRERAS <https://github.com/BaptisteContreras>

@@ -3,6 +3,9 @@
 
 namespace Sflightning\Runtime;
 
+use Sflightning\Runtime\Factory\ApplicationFactory;
+use Sflightning\Runtime\Internal\InvalidApplicationException;
+use Sflightning\Runtime\Internal\LightningRunner;
 use Symfony\Component\HttpKernel\HttpKernelInterface;
 use Symfony\Component\Runtime\RunnerInterface;
 use Symfony\Component\Runtime\SymfonyRuntime;

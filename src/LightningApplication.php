@@ -3,6 +3,8 @@
 
 namespace Sflightning\Runtime;
 
+use Sflightning\Runtime\Bridge\SymfonyHttpBridge;
+use Sflightning\Runtime\Internal\ApplicationNotBootedException;
 use Swoole\Http\Request;
 use Swoole\Http\Response;
 use Swoole\Http\Server;

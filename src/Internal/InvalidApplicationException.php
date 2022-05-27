@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Sflightning\Runtime;
+namespace Sflightning\Runtime\Internal;
 
 
 use Symfony\Component\HttpKernel\HttpKernelInterface;

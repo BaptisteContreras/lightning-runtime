@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Sflightning\Runtime;
+namespace Sflightning\Runtime\Internal;
 
 /**
  * @author Baptiste CONTRERAS <https://github.com/BaptisteContreras>

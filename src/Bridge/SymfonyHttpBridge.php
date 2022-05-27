@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Sflightning\Runtime;
+namespace Sflightning\Runtime\Bridge;
 
 use Swoole\Http\Request;
 use Swoole\Http\Response;

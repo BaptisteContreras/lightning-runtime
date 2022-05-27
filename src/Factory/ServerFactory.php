@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Sflightning\Runtime;
+namespace Sflightning\Runtime\Factory;
 
 use Swoole\Http\Server;
 
